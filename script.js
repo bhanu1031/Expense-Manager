@@ -79,7 +79,6 @@ const balance = document.getElementById(
   }
   
   //4
-  
   //Update the balance income and expence
   function updateValues() {
     const amounts = transactions.map(
@@ -105,7 +104,6 @@ const balance = document.getElementById(
   
   
   //6 
-  
   //Remove Transaction by ID
   function removeTransaction(id){
     transactions = transactions.filter(transaction => transaction.id !== id);
