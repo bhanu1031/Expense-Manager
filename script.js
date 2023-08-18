@@ -20,7 +20,6 @@ const balance = document.getElementById(
   // ];
   
   // let transactions = dummyTransactions;
-  
   //last 
   const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
   
